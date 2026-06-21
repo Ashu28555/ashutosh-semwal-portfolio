@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashutosh Semwal | Data Engineer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<nav>
+    <div class="logo">ASHUTOSH SEMWAL</div>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <div class="hero-badge">Data Engineering • Analytics • GenAI</div>
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Ashutosh Semwal</h1>
+
+        <h2>
+            <span id="typing"></span>
+        </h2>
+
+        <p>
+            I'm a Data Engineer building production-grade ETL pipelines for healthcare data — pharmacy, eligibility, and claims — on Databricks and Azure. I architected datajobs, an incremental ETL framework using Medallion Architecture, and pybrv, an LLM-integrated data validation framework. Published author in an IEEE Scopus-indexed conference on deep learning.
+        </p>
+
+        <div class="buttons">
+            <a href="Ashutosh_Semwal_Resume.pdf" class="btn" download>
+                Download Resume
+            </a>
+
+            <a href="https://github.com/Ashu28555" target="_blank" class="btn-outline">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/ashutosh-semwal-4323422ba/" target="_blank" class="btn-outline">
+                LinkedIn
+            </a>
+        </div>
+
+        <a href="#about" class="scroll-down" aria-label="Scroll to About section">
+            <span></span> Scroll
+        </a>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="avatar.jpg" alt="profile">
+
+    </div>
+
+</section>
+
+<section id="about" class="section reveal">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="glass-card">
+
+<p>
+            I'm a Data Engineer specializing in healthcare data — pharmacy, eligibility, and claims — with a growing focus on AI-augmented data engineering. I've architected datajobs, a production incremental ETL framework on Databricks using Medallion Architecture (Bronze→Silver→Gold), and built pybrv, a rule-based data validation framework integrated with an LLM that auto-generates business rule test cases directly from a data schema.
+            
+            My work sits at the intersection of solid data engineering fundamentals and applied AI — from automated, config-driven pipelines on Databricks and Azure, to a published IEEE research paper comparing deep learning and traditional algorithms for price prediction, to Plant Health Analyzer, a Streamlit app I built that uses a VGG16 model to detect plant diseases from leaf images in real time.
+
+</section>
+
+<section id="journey" class="section reveal">
+
+    <div class="journey-header">
+        <span class="section-number"></span>
+        <h2>Professional Journey</h2>
+    </div>
+
+    <div class="journey-timeline">
+
+        <div class="journey-item">
+
+            <div class="journey-marker"></div>
+
+            <div class="journey-content">
+
+                <h3>Data Engineer I at Complere Infosystem pvt, ltd. (2025 - Present)</h3>
+
+                <p>
+                    I work on the data engineering team building pipelines for pharmacy, eligibility, and claims data — the kind of system where a missed validation rule or a silent schema drift can cause real downstream problems for healthcare reporting.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <strong>datajobs</strong> — Architected and built a production incremental ETL framework on Databricks Workflows using Medallion Architecture (Bronze→Silver→Gold) with declarative JSON configuration, MD5-based row-hashing for incremental merge logic, and PRE/POST data quality gates with CRITICAL/WARNING severity tiers and record-level reject routing.
+                    </li>
+
+                    <li>
+                        <strong>pybrv</strong> — Built a rule-based data parity and validation framework integrated with an LLM: given a user-provided data schema, the framework automatically generates business rule test cases — cutting manual test-authoring effort and accelerating validation coverage across pharmacy and eligibility datasets.
+                    </li>
+
+                    <li>
+                        Built pharmacy-specific data workflows orchestrated via Databricks Workflows on ADLS: a daily incremental job filtering pharmacy-specific records from the gold layer, and a monthly incremental job cleaning, transforming, and reconciling pharmacy-provided drug lists against the internal drug master list; monitored pipeline runs through Azure Data Factory (ADF) and managed deployment/versioning through Azure DevOps.
+                    </li>
+
+                    <li>
+                        Integrated Unity Catalog, batch process tracking, and automated audit-trail population into the ETL framework, improving traceability and governance across pipeline runs; deployed workspace structures programmatically using the databricks-sdk.
+                    </li>
+
+                    <li>
+                        Implemented API-based ingestion pipelines, transforming multi-source healthcare data into analytics-ready structures, and built Power BI dashboards to monitor data quality KPIs, mismatch trends, and pharmacy metrics for business stakeholders.
+                    </li>
+
+                </ul>
+
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>PySpark</span>
+                    <span>Databricks</span>
+                    <span>Databricks Workflows</span>
+                    <span>Azure</span>
+                    <span>ADF</span>
+                    <span>ADLS</span>
+                    <span>Azure DevOps</span>
+                    <span>Unity Catalog</span>
+                    <span>Power BI</span>
+                    <span>GenAI / LLM</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section id="skills" class="section reveal">
+
+<h2 class="section-title">Tech Stack</h2>
+
+<div class="skills-grid">
+
+<div class="skill">Python</div>
+<div class="skill">SQL</div>
+<div class="skill">PySpark</div>
+<div class="skill">Databricks</div>
+<div class="skill">Power BI</div>
+<div class="skill">Azure</div>
+<div class="skill">ETL</div>
+<div class="skill">Data Warehousing</div>
+<div class="skill">Streamlit</div>
+<div class="skill">GenAI</div>
+<div class="skill">Git</div>
+<div class="skill">Machine Learning</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="section reveal">
+
+<h2 class="section-title">Featured Projects</h2>
+
+<div class="project-grid">
+
+    <div class="project-card">
+        <h3>Customer Churn Prediction</h3>
+        <p>
+            Machine learning-based customer churn prediction system using Python,
+            Scikit-learn and Power BI with 91.74% model accuracy.
+        </p>
+        <a href="https://github.com/Ashu28555/Customer-Churn-Prediction-using-Machine-Learning-and-Power-BI"
+           target="_blank"
+           class="project-link">
+            View Project
+        </a>
+    </div>
+
+    <div class="project-card">
+        <h3>NYC Taxi Analytics Pipeline</h3>
+        <p>
+            End-to-end Databricks pipeline implementing Bronze, Silver and Gold
+            layers with data quality checks and dimensional modeling.
+        </p>
+        <a href="https://github.com/Ashu28555/NYC-Taxi-Analytics-Pipeline-using-Databricks"
+           target="_blank"
+           class="project-link">
+            View Project
+        </a>
+    </div>
+
+    <div class="project-card">
+        <h3>Plant Disease Detection</h3>
+        <p>
+            Deep learning-based image classification model for identifying plant
+            diseases from leaf images using computer vision techniques.
+        </p>
+        <a href="https://github.com/Ashu28555/plant_disease"
+           target="_blank"
+           class="project-link">
+            View Project
+        </a>
+    </div>
+
+    <div class="project-card">
+        <h3>Car Price Prediction</h3>
+        <p>
+            Machine learning regression model for predicting second-hand car prices
+            using feature engineering and Scikit-learn.
+        </p>
+        <a href="https://github.com/Ashu28555/CAR-PRICE-PREDICTION-WITH-MACHINE-LEARNING"
+           target="_blank"
+           class="project-link">
+            View Project
+        </a>
+    </div>
+
+</div>
+
+</section>
+
+<section id="publications" class="section reveal">
+
+<h2 class="section-title">Publications</h2>
+
+<div class="glass-card publication-card">
+
+<h3>Deep Learning and Traditional Algorithms: A Comparative Study on Predicting Second-Hand Car Prices</h3>
+<p>
+Published at IEEE ICIDeA 2025.
+</p>
+<p>
+DOI: <a href="https://ieeexplore.ieee.org/document/10963181" target="_blank">10.1109/ICIDeA64800.2025.10963181</a>
+</p>
+
+</div>
+
+</section>
+
+<section id="certifications" class="section reveal">
+
+<h2 class="section-title">Certifications</h2> <div class="certificate-grid"> <div class="certificate-card"> <img src="Google Data Analytics.png" alt="Certificate 1" class="certificate-img"> <h3>Google Data Analytics</h3> <a href="https://coursera.org/share/59f82a16d00120dd361537b6408f176a" target="_blank" class="certificate-btn"> View Certificate </a> </div> <div class="certificate-card"> <img src="IBM Data Science.png" alt="Certificate 2" class="certificate-img"> <h3>IBM Data Science</h3> <a href="https://coursera.org/share/c1bdf89d46c685e7ca9804305a0dcf5e" target="_blank" class="certificate-btn"> View Certificate </a> </div> <div class="certificate-card"> <img src="IBM Data Analyst.png" alt="Certificate 3" class="certificate-img"> <h3>IBM Data Analyst</h3> <a href="https://coursera.org/share/29421fa38cc95c0fc8e1d0b2d6fb8fb1" target="_blank" class="certificate-btn"> View Certificate </a> </div> <div class="certificate-card"> <img src="Genarative AI.png" alt="Certificate 4" class="certificate-img"> <h3>Genrative AI Fundamentals</h3> <a href="https://coursera.org/share/de515a8ec5fca0194f756c56120aa508" target="_blank" class="certificate-btn"> View Certificate </a> </div> </div>
+
+</section>
+
+<section id="contact" class="section reveal">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="glass-card contact-card">
+
+<p>Email: <a href="mailto:ashutoshsemwal9095@gmail.com">ashutoshsemwal9095@gmail.com</a></p>
+
+<p>GitHub: <a href="https://github.com/Ashu28555" target="_blank">Ashu28555</a></p>
+
+<p>LinkedIn: <a href="https://www.linkedin.com/in/ashutosh-semwal-4323422ba/" target="_blank">Ashutosh Semwal</a></p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Ashutosh Semwal | Data Engineer Portfolio
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
